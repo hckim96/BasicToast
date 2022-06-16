@@ -8,7 +8,7 @@ open class BasicToast {
         case bottom
     }
     
-    open static func show(self: UIViewController, message: String, duration: TimeInterval = 5.0, position: pos = .bottom, font: UIFont = UIFont.systemFont(ofSize: 14.0)) {
+    public static func show(self: UIViewController, message: String, duration: TimeInterval = 5.0, position: pos = .bottom, font: UIFont = UIFont.systemFont(ofSize: 14.0)) {
         var yy:CGFloat
         switch position {
         case .top:
